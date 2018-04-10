@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="312 198 208 65">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 55px;
+        font-family: Raleway-SemiBold, Raleway;
+        font-weight: 600;
+        letter-spacing: 0.25em;
+      }
+
+      .cls-2 {
+        font-family: Raleway-Light, Raleway;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <text id="FOXIT" class="cls-1" transform="translate(312 250)"><tspan x="0" y="0">FOX</tspan><tspan class="cls-2" y="0">IT</tspan></text>
+</svg>
