@@ -16,10 +16,10 @@ body{
   background-image: url(../assets/bg.jpg), linear-gradient(135deg, #E55F25 0%, #D22A19 100%)!important;
   background-size: cover;
   display: grid;
-  grid-template-columns: 20% 60% 20%;
+  grid-template-columns: 10% 80% 10%;
   grid-gap: 10px;
   grid-template-areas: ". inner .";
-  height: 80%;
+  height: auto;
 }
 
 .section{
@@ -47,19 +47,19 @@ svg.bottom{
 
 #inner{
   grid-area: inner;
-  align-self: flex-start;
+  align-self: center;
 
 }
 
 img#logo{
   width:130px;
-  margin-bottom: 1.6em;
-  margin-top: 15%
+  margin-bottom: 1.2em;
+  margin-top: 5%;
 }
 
 h1{
   text-transform: uppercase;
-  font-size: 5em;
+  font-size: 6em;
   color: #fff;
   margin-top: 0px;
   margin-bottom: .2em;
@@ -68,6 +68,7 @@ h1{
 p.subtitle{
   font-size:2em;
   color: #fff;
+  padding-bottom: 50px;
 }
 
 .cta{
@@ -76,10 +77,49 @@ p.subtitle{
   background-image: linear-gradient(135deg, #2D9FD2 0%, #36D1E9 100%)!important;
   padding: 1em;
   color: #fff;
-  margin-top:-50px;
-  margin-left: 20%;
-  font-size:35px;
+  margin-top:-40px;
+  margin-left: 10%;
+  font-size:2em;
   font-weight: bold;
   display:inline-block;
   text-decoration: none;
+}
+
+@media (max-width: 1024px){
+  h1{
+    font-size:5em;
+  }
+  p.subtitle{
+    font-size:1.5em;
+  }
+  .cta{
+    font-size:1.5em;
+  }
+}
+
+@media (max-width: 768px){
+  h1{
+    font-size:3em;
+  }
+  p.subtitle{
+    font-size:1em;
+  }
+  .cta{
+    font-size:1em;
+  }
+}
+
+@media (max-width: 425px){
+  img#logo{
+    width:80px;
+  }
+  h1{
+    font-size:2em;
+  }
+  p.subtitle{
+    font-size:.8em;
+  }
+  .cta{
+    font-size:.8em;
+  }
 }
