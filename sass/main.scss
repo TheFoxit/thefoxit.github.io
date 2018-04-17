@@ -1,0 +1,36 @@
+$foxit-orange: #E55F25;
+$foxit-red: #D32F1E;
+$foxit-white: #FFFFFF;
+$foxit-grey: #B6CCC5;
+$foxit-black: #1A1A1A;
+
+$font-stack: Raleway, sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import "sass/partials/header.scss";
+@import "sass/partials/landing.scss";
+
+html,body{
+  font-family: $font-stack;
+  font-size:14px;
+  line-height:26px;
+  font-weight:400;
+  margin:0 auto;
+}
+
+body{
+  width:100%;
+  background-color:#AAAAAA;
+}
+
+h1{
+  margin:10px 0 20px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.sticky{
+  position:fixed;
+  top:0;
+}
