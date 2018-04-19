@@ -1,0 +1,40 @@
+:root{
+  --foxit-orange: #E55F25;
+  --foxit-red: #D32F1E;
+  --foxit-white: #E6E6E6;
+  --foxit-grey: #B6CCC5;
+  --foxit-black: #1A1A1A;
+}
+
+html,body{
+  font-family:  Raleway, sans-serif;
+  font-size:14px;
+  line-height:26px;
+  font-weight:400;
+  margin:0 auto;
+}
+
+body{
+  width:100%;
+  background-color:#AAAAAA;
+}
+
+h1{
+  font-size:56px;
+  line-height:60px;
+  margin:10px 0 20px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+p{
+  font-size:26px;
+  line-height:30px;
+  margin:10px 0 20px 0;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.transparent{
+  background-color: transparent;
+}
